@@ -1,0 +1,10 @@
+.cardList-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:5.5rem;
+  align-items: center;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}

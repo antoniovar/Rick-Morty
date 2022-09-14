@@ -1,0 +1,38 @@
+.NavBar-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding:0.7rem;
+  background-color: #437051fa;
+  position: absolute;
+  top:0;
+  left: 0;
+  right:0;
+}
+.left-container{
+  margin-left: 2.5rem;
+}
+.right-container{
+  display: flex;
+  flex-direction: row;
+  gap:2rem;
+  margin-right: 2.5rem;
+}
+
+.right-container button{
+  color: white;
+  font-weight: bold;
+  height: 3rem;
+  width: 7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 30px;
+  background-color: #9bae93;
+  border: solid rgba(255, 255, 255, 0.419);  
+}
+
+.right-container button:hover{
+  cursor: pointer;
+  background-color: #437051fa;
+}
